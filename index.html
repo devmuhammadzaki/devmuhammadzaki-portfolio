@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css" />
-    <!-- google fonts -->
-    <link rel="stylesheet" href="styles/fonts.css" />
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="styles/all.min.css" />
+
     <link rel="icon" type="image/png" href="img/icon.png" />
 
     <style>
@@ -359,7 +356,6 @@
       </div>
     </div>
     <script>
-      // script.js
       document.addEventListener("DOMContentLoaded", function () {
         const loader = document.getElementById("loader");
         const content = document.getElementById("content");
@@ -374,33 +370,16 @@
           content.style.display = "block";
         }
 
-        function areCSSLoaded() {
-          const stylesheets = document.styleSheets;
-          for (let i = 0; i < stylesheets.length; i++) {
-            if (!stylesheets[i].href) continue;
-            if (
-              stylesheets[i].href.includes("fonts.css") ||
-              stylesheets[i].href.includes("all.min.css")
-            ) {
-              if (stylesheets[i].cssRules.length === 0) {
-                return false;
-              }
-            }
-          }
-          return true;
-        }
+        if (!sessionStorage.getItem("loaderDisplayed")) {
+          showLoader();
 
-        showLoader();
-
-        function checkCSSLoaded() {
-          if (areCSSLoaded()) {
+          window.addEventListener("load", function () {
             hideLoader();
-          } else {
-            setTimeout(checkCSSLoaded, 100);
-          }
+            sessionStorage.setItem("loaderDisplayed", "true");
+          });
+        } else {
+          hideLoader();
         }
-
-        checkCSSLoaded();
       });
     </script>
     <script src="app.js"></script>
