@@ -321,9 +321,6 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
   width: 90%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .firebase {
-  width: 73%;
-}
 .about-stats .progress-bars .progress-bar .progress-con .progress .docker {
   width: 80%;
 }
