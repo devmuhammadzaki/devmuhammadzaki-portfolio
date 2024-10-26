@@ -309,17 +309,38 @@ section {
   width: 60%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .ts {
+  width: 75%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .tailwindcss {
   width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .vue {
   width: 80%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .nodejs {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .express {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
+  width: 90%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
   width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
   width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mongodb {
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .docker {
   width: 80%;
