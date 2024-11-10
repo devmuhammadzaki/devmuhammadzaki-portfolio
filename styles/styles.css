@@ -309,6 +309,15 @@ section {
   width: 60%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .sass {
+  width: 95%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .jquery {
+  width: 86%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
+  width: 95%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .tailwindcss {
   width: 95%;
 }
