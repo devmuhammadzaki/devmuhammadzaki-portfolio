@@ -309,8 +309,11 @@ section {
   width: 60%;
 }
 
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 86%;
+}
 .about-stats .progress-bars .progress-bar .progress-con .progress .ts {
-  width: 85%;
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sass {
   width: 90%;
