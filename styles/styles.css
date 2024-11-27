@@ -315,11 +315,11 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .ts {
   width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .sass {
-  width: 90%;
-}
 .about-stats .progress-bars .progress-bar .progress-con .progress .jquery {
   width: 86%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sass {
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
   width: 95%;
@@ -333,12 +333,6 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .angular {
   width: 80%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .cs {
-  width: 87%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .asp {
-  width: 80%;
-}
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
   width: 90%;
 }
@@ -346,9 +340,6 @@ section {
   width: 85%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
-  width: 90%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .mssql {
   width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .docker {
