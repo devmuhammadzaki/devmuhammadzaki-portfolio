@@ -309,25 +309,13 @@ section {
   width: 60%;
 }
 
-.about-stats .progress-bars .progress-bar .progress-con .progress .ts {
-  width: 80%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .jquery {
-  width: 86%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .sass {
-  width: 90%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
-  width: 95%;
-}
 .about-stats .progress-bars .progress-bar .progress-con .progress .tailwindcss {
   width: 95%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .vue {
-  width: 80%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .js {
+  width: 85%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .angular {
+.about-stats .progress-bars .progress-bar .progress-con .progress .vue {
   width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .php {
