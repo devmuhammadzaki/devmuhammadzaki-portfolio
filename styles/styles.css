@@ -324,20 +324,8 @@ section {
 .about-stats .progress-bars .progress-bar .progress-con .progress .laravel {
   width: 90%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .rest {
-  width: 90%;
-}
 .about-stats .progress-bars .progress-bar .progress-con .progress .mysql {
   width: 90%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .mongodb {
-  width: 85%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .docker {
-  width: 80%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .aws {
-  width: 85%;
 }
 
 
